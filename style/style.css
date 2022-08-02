@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: rgb(36, 8, 179);
+    color:rgb(237, 243, 229);
+    height: 12vh;
+    display: flex;
+}
+
+#header h1 {
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+
+#section{
+    overflow-y: auto;
+    max-height: 65vh;
+}
+
+#footer{
+    height: 12vh;
+    /* align-items: center; */
+    z-index: -1;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+}
+
+#footer a{
+    text-align: center;
+    color: white;
+    height: 100%;
+    align-items: center;
+}
+
+
